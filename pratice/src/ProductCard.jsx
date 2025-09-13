@@ -26,3 +26,20 @@ function ProductCard(uno) {
 }
 
 export default ProductCard
+
+
+
+/*
+/*function App() {
+  const productName = "Pencil";
+  //const isAvailable1 = true;
+  //const isAvailable2 = false;
+    const price = "9";
+    const isAvailable = false;
+const isXo=true;
+
+  return (
+    <div className="container1">
+      <p className="card1"><ProductCard  myName={productName} bee={price} cold={isAvailable}/></p>
+      <p className="card2"><ProductCard  myName={productName}  bee={price} ford={isXo}/></p>
+    </div> */
