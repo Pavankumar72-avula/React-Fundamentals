@@ -4,3 +4,4 @@ function ButtonClick() {
             <p>hello</p>
         </div>
     )}
+export default ButtonClick
