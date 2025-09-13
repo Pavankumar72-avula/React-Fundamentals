@@ -1,9 +1,26 @@
-function ProductCard({myName,bee,cold}) {
+import "./ProductCard.css"
+function ProductCard(uno) {
+    const yoStyle={
+        fontSize:'30px',
+        color:'goldenrod'
+    }
     return(
-        <div>
-            <p>{myName}</p>
-            <p>{bee}</p>
-      <p>{cold===true?"true":"false"}</p>
+        <div className="container">
+            <p style={yoStyle}>{uno.myName}</p>
+            <p className="xo">{uno.bee}</p>
+            {/* condition: cold */}
+      {uno.cold !== undefined && (
+        <p className={uno.cold ? "available" : "not"}>
+          {uno.cold ? "it is available" : "not"}
+        </p>
+      )}
+
+      {/* condition: ford */}
+      {uno.ford !== undefined && (
+        <p className={uno.ford ? "available" : "not"}>
+          {uno.ford ? "it is available" : "not"}
+        </p>
+      )}
         </div>
     )
 }

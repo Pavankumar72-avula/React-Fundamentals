@@ -1,0 +1,21 @@
+{
+  "name": "react-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavankumar72-avula/React-Fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pavankumar72-avula/React-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/Pavankumar72-avula/React-Fundamentals#readme"
+}

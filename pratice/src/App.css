@@ -1,0 +1,22 @@
+.container1     {
+  display: flex;
+ 
+border: 2px solid black;
+}
+
+.card1{
+    color:blueviolet;
+   display: flex;
+    margin: 20px;
+    border:2px solid black;
+    padding: 20px;
+}
+.card2{
+    color:violet;
+     border:2px solid black;
+        padding: 20px;
+
+
+}
+
+  
